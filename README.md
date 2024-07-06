@@ -19,3 +19,15 @@ Ad esempio:
 Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti.
 Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+
+SUDDIVIDO IL PROBLEMA IN SOTTOPROBLEMI
+
+1 - Creo un Div e un button nell'html con id dove mettere la griglia dinamica
+2 - In js Creo una function click per il botton
+3 - Recupero l'elemento che conterrà la griglia
+4 - Creo un ciclo per creare la griglia
+5 - Creo il singolo quadrato con numero progressivo all'interno e lo appendo nella grigla
+6 - Do uno stile alla griglia e ai quadrati
+7 - Creo un altra funzione per far colorare la casella quando cliccata dall'utente
+8 - Faccio apparire in console il numero della casella cliccata 
