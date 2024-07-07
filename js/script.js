@@ -10,3 +10,6 @@ function createSquare(){
     // RESTITUISCO IL QUADRATO
     return square;
 }
+
+// RECUPERO L'ELEMENTO CHE CONTERRà LA GRID
+const grid = document.getElementById('grid');
