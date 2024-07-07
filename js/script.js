@@ -19,5 +19,17 @@ const btn = document.getElementById('start');
 
 // FUNZIONE ANONIMA PER IL BUTTON
 btn.addEventListener('click', function(){
+
+    // ESEGUO UN CICLO PER CREARE LA GRID
+    for(let i = 0; i < 100; i++){
     
+        // RICHIAMO LA FUNZIONE
+        let square = createSquare();
+    
+        // NUMERO PROGRESSIVO
+        square.innerText = i + 1;
+        
+        // APPENDO IL QUADRATO NELLA GRID
+        grid.append(square);
+    }
 })
