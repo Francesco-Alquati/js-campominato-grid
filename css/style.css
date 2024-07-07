@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: grey;
+}
 
 .square{
     display: flex;
@@ -11,13 +14,13 @@
     width: calc(100% / 10);
     height: calc(100% / 10);
     background-color: navy;
-    border: 1px solid white;
+    border: 1px solid grey;
     color: white;
 }
 
 #grid{
-    max-width: 1200px;
-    height: 1200px;
+    max-width: 1250px;
+    height: 1250px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
