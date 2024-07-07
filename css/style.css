@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: navy;
+    border: 1px solid white;
+    color: white;
+}
