@@ -24,10 +24,14 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 SUDDIVIDO IL PROBLEMA IN SOTTOPROBLEMI
 
 1 - Creo un Div e un button nell'html con id dove mettere la griglia dinamica
-2 - In js Creo una function click per il botton
+2 - In js Creo una function per generare i quadrati della griglia
 3 - Recupero l'elemento che conterrà la griglia
-4 - Creo un ciclo per creare la griglia
-5 - Creo il singolo quadrato con numero progressivo all'interno e lo appendo nella grigla
-6 - Do uno stile alla griglia e ai quadrati
-7 - Creo un altra funzione per far colorare la casella quando cliccata dall'utente
-8 - Faccio apparire in console il numero della casella cliccata 
+4 - Recupero il button 
+5 - Creo una function anonima per il click del button
+6 - Do uno stile ai quadrati e alla griglia
+7 - Creo un ciclo per creare la griglia
+8 - Richiamo la funzione per creare quadrati 
+9 - Aggiungo il testo all'interno dei quadrati
+10 - Creo una function anonima per il click della cella
+11 - Faccio stampare in console il numero della cella cliccato
+12 - Appendo i quadrati nella griglia
