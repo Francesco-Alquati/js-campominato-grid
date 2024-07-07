@@ -28,7 +28,17 @@ btn.addEventListener('click', function(){
     
         // NUMERO PROGRESSIVO
         square.innerText = i + 1;
-        
+
+        // AGGIUNGO EVENTO CLICK ALLA CELLA
+        square.addEventListener('click', function() {
+
+            // AGGIUNGO LA CLASSE AL CLICK 
+            this.classList.toggle('clicked');
+
+            // STAMPO LA CELLA CLICCATA
+            console.log(`cella cliccata: ${i + 1}`);
+        });
+
         // APPENDO IL QUADRATO NELLA GRID
         grid.append(square);
     }
